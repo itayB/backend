@@ -1,0 +1,15 @@
+{
+  "configurations": [
+    {
+      "name": "Backend",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "backend",
+      "env": {
+        "LOG_SEVERITY": "DEBUG"
+      },
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}
