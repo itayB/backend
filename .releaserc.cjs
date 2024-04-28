@@ -27,22 +27,10 @@ module.exports = {
         },
       ],
       [
-        '@semantic-release/exec',
-        {
-          prepareCmd: 'npm ci && npm run build',
-        },
-      ],
-      [
-        '@semantic-release/npm',
-        {
-          npmPublish: true,
-        },
-      ],
-      [
         '@semantic-release/git',
         {
           message: 'chore(release): ${nextRelease.version} ${nextRelease.notes}',
-          assets: ['CHANGELOG.md', 'package.json', 'package-lock.json'],
+          assets: ['CHANGELOG.md'],
         },
       ],
       [
