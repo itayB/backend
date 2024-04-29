@@ -1,4 +1,5 @@
 from distutils.sysconfig import get_python_lib
+import sys
 from fastapi import FastAPI
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
@@ -28,5 +29,9 @@ def main():
     run(app, host="0.0.0.0", port=8080)
 
 
-if __name__ == "__main__":
-    main()
+def init():
+    if __name__ == "__main__":
+        sys.exit(main())
+
+
+init()
