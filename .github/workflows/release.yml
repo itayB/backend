@@ -30,4 +30,6 @@ jobs:
     - name: Release
       env:
         GITHUB_TOKEN: ${{ secrets.SEMREL_GITHUB_TOKEN }}
-      run: npx semantic-release
+      run: |
+        npm install @semantic-release/git @semantic-release/changelog -D
+        npx semantic-release
