@@ -6,6 +6,18 @@
 
   The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0](https://github.com/itayB/backend/compare/1.0.0...1.1.0) (2024-05-04)
+
+
+### Features
+
+* **tests:** coverage ([24d7351](https://github.com/itayB/backend/commit/24d735148376b14ecbd09c3cbc9ed96fcd35bba5))
+
+
+### Bug Fixes
+
+* **ci:** locking conventionalcommit version ([cca6eec](https://github.com/itayB/backend/commit/cca6eec8e0e82ab9d985a7a2639056c1dfb9dee9))
+
 ## 1.0.0 (2024-04-29)
 
 
