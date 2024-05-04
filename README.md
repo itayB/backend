@@ -17,6 +17,16 @@ pip install -r requirements.txt  # install dependencies
 python -m backend                # run the server
 ```
 
+## Tests
+
+### Unit Tests
+
+Run the following command to execute the project unit-tests:
+
+```bash
+py.test -o junit_family=xunit2 --junitxml result.xml -xv --ff --cov=backend --cov-report=xml --cov-report=term-missing tests
+```
+
 ### Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
