@@ -6,6 +6,25 @@
 
   The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## <small>1.1.1 (2025-09-01)</small>
+
+* Merge pull request #18 from itayB/dependabot/github_actions/actions/checkout-4.1.6 ([75c0214](https://github.com/itayB/backend/commit/75c0214)), closes [#18](https://github.com/itayB/backend/issues/18)
+* Merge pull request #19 from itayB/dependabot/github_actions/actions/checkout-4.1.7 ([085309c](https://github.com/itayB/backend/commit/085309c)), closes [#19](https://github.com/itayB/backend/issues/19)
+* Merge pull request #20 from itayB/dependabot/github_actions/amannn/action-semantic-pull-request-5.5. ([b6f240e](https://github.com/itayB/backend/commit/b6f240e)), closes [#20](https://github.com/itayB/backend/issues/20)
+* Merge pull request #21 from itayB/dependabot/github_actions/actions/checkout-5.0.0 ([d8a1409](https://github.com/itayB/backend/commit/d8a1409)), closes [#21](https://github.com/itayB/backend/issues/21)
+* Merge pull request #22 from itayB/dependabot/github_actions/amannn/action-semantic-pull-request-6.0. ([a42bd64](https://github.com/itayB/backend/commit/a42bd64)), closes [#22](https://github.com/itayB/backend/issues/22)
+* Merge pull request #23 from itayB/dependabot/github_actions/amannn/action-semantic-pull-request-6.1. ([d88e456](https://github.com/itayB/backend/commit/d88e456)), closes [#23](https://github.com/itayB/backend/issues/23)
+* Merge pull request #24 from itayB/dependabot/github_actions/amannn/action-semantic-pull-request-6.1. ([0d52e6e](https://github.com/itayB/backend/commit/0d52e6e)), closes [#24](https://github.com/itayB/backend/issues/24)
+* Merge pull request #25 from itayB/distutils ([24e954c](https://github.com/itayB/backend/commit/24e954c)), closes [#25](https://github.com/itayB/backend/issues/25)
+* fix(python): remove distutils (removed in 3.12) ([36bd093](https://github.com/itayB/backend/commit/36bd093))
+* chore(deps): bump actions/checkout from 4.1.4 to 4.1.6 ([47be4fc](https://github.com/itayB/backend/commit/47be4fc))
+* chore(deps): bump actions/checkout from 4.1.6 to 4.1.7 ([12efc33](https://github.com/itayB/backend/commit/12efc33))
+* chore(deps): bump actions/checkout from 4.1.7 to 5.0.0 ([1cc005f](https://github.com/itayB/backend/commit/1cc005f))
+* chore(deps): bump amannn/action-semantic-pull-request ([a4e6750](https://github.com/itayB/backend/commit/a4e6750))
+* chore(deps): bump amannn/action-semantic-pull-request ([82c7133](https://github.com/itayB/backend/commit/82c7133))
+* chore(deps): bump amannn/action-semantic-pull-request ([5d2c303](https://github.com/itayB/backend/commit/5d2c303))
+* chore(deps): bump amannn/action-semantic-pull-request ([9e795cf](https://github.com/itayB/backend/commit/9e795cf))
+
 ## [1.1.0](https://github.com/itayB/backend/compare/1.0.0...1.1.0) (2024-05-04)
 
 
