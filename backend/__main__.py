@@ -1,4 +1,4 @@
-from distutils.sysconfig import get_python_lib
+import sysconfig
 import sys
 from fastapi import FastAPI
 from fastapi.responses import FileResponse
@@ -13,7 +13,7 @@ def create_app():
     )
     app.include_router(router)
 
-    client_path = f"{get_python_lib()}/vite_project"
+    client_path = f"{sysconfig.get_path('purelib')}/vite_project"
     app.mount("/assets", StaticFiles(directory=f"{client_path}/assets"), name="assets")
     app.mount("/static", StaticFiles(directory=f"{client_path}/static"), name="static")
 
